@@ -1,0 +1,24 @@
+DEPENDENCY DOWNLOADS:
+
+** Tailwind CSS 
+
+// To install Tailwind:
+npm install -D tailwindcss
+
+// To create the tailwind.config.js file:
+npx tailwindcss init
+
+// Config command
+npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch
+
+--------------------------------------------
+
+** Tailwind Typography plugin
+
+npm install -D --save @tailwindcss/typography
+
+--------------------------------------------
+
+** React router DOM 
+
+npm i react-router-dom
