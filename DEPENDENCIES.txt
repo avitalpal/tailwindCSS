@@ -13,6 +13,12 @@ npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch
 
 --------------------------------------------
 
+** DaisyUI
+
+npm install --save daisyui
+
+--------------------------------------------
+
 ** Tailwind Typography plugin
 
 npm install -D --save @tailwindcss/typography
