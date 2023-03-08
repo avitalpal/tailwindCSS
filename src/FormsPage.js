@@ -3,6 +3,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function TextPage() {
+  function refreshPage() {
+    window.location.reload(false);
+  }
   return (
     <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12 pl-64">
     <img src={require("./bck4.svg")} alt="" class="bg-cover" width="1308" />
@@ -71,8 +74,8 @@ function TextPage() {
       </a>
            </div>
             <div class="flex items-center justify-between pt-4">
-      <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" href="#">
-        Sign In
+      <button onClick={refreshPage} class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" href="#">
+        Sign in
       </button>
       <a class="align-baseline font-bold text-sm text-violet-600 hover:text-violet-800" href="#">
         Forgot Password?
