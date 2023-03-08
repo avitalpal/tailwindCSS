@@ -26,8 +26,7 @@ function GridPage() {
         <div class="relative bg-violet-600/90 px-6 pt-3 pb-3 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-auto">
         <p class="leading-loose font-medium text-white">Feel free to play around with the features below!</p>
         </div>
-        <br></br>
-        <div class="grid grid-cols-5 gap-3 text-white items-center">
+        <div class="grid grid-cols-5 gap-3 text-white items-center mt-8">
             <div class="col-span-5 font-semibold text-black rounded-md py-4 bg-slate-200 shadow-md">This is a grid:</div>
             <div class="col-span-3 bg-sky-500 rounded-md hover:bg-slate-600 py-4 shadow-md">01</div>
             <div class="col-span-2 bg-sky-500 rounded-md hover:bg-red-600 py-4 shadow-md">02</div>
@@ -38,17 +37,17 @@ function GridPage() {
             <div class="col-span-2 col-start-1 bg-sky-500 rounded-md hover:bg-yellow-600 py-4 shadow-md">07</div>
             <div class="col-span-3 bg-sky-500 rounded-md hover:bg-indigo-600 py-4 shadow-md">08</div>
         </div>
-        <br></br>
-        <div class="flex text-white items-center gap-3">
-            <div class="basis-full font-semibold text-black rounded-md py-4 bg-slate-200 shadow-md">This is a flexbox:</div>
+        <div class="flex text-white items-center gap-3 flex-wrap mt-8 justify-center">
+            <div class="basis-1/2 font-semibold text-black rounded-md py-4 bg-slate-200 shadow-md">This is a flexbox:</div>
             <div class=" bg-sky-500 rounded-md hover:bg-slate-600 py-4 px-6 shadow-md">01</div>
             <div class=" bg-sky-500 rounded-md hover:bg-red-600 py-4 px-6 shadow-md">02</div>
-        </div>
-        <br></br>
-        <div class="flex text-white items-center gap-3 flex-auto">
-            <div class="basis-full bg-sky-500 rounded-md hover:bg-emerald-600 py-4 px-6 shadow-md">03</div>
-            <div class="basis-full bg-sky-500 rounded-md hover:bg-violet-600 py-4 px-6 shadow-md">04</div>
-        </div>
+            <div class="basis-1/4 bg-sky-500 rounded-md hover:bg-emerald-600 py-4 px-6 shadow-md">03</div>
+            <div class="basis-2/3 bg-sky-500 rounded-md hover:bg-violet-600 py-4 px-6 shadow-md">04</div>
+          </div>
+            <div class="flex text-white gap-3 flex-wrap justify-between mt-3">
+              <div class="basis-auto bg-sky-500 rounded-md hover:bg-orange-600 py-4 px-6 shadow-md">05</div>
+              <div class="basis-auto bg-sky-500 rounded-md hover:bg-pink-600 py-4 px-6 shadow-md">06</div>
+            </div>
           <div class="pt-8 text-base font-semibold leading-7">
             <p class="text-gray-900">Need a reminder of Tailwind's features?</p>
             <p>

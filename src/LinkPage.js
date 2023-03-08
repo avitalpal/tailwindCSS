@@ -46,6 +46,16 @@ function LinkPage() {
                     <code class="text-sm font-bold text-gray-900"> GridPage.js</code>
                 </p>
               </li>
+              <li class="flex items-center">
+                <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2 hover:stroke-purple-700 hover:fill-purple-200 active:fill-green-200 active:stroke-green-500" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="11" />
+                  <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                </svg>
+                <p class="ml-4 underline hover:text-sky-500">
+                <Link to="/daisypage">DaisyUI plugin:</Link>
+                    <code class="text-sm font-bold text-gray-900"> DaisyPage.js</code>
+                </p>
+              </li>
             </ul>
             <p class="text-gray-900">You can also play around with <b>screen sizes</b>, <b>themes</b>, and <b>plugins</b> by editing 
                 <code class="text-sm font-bold text-gray-900"> tailwind.config.js</code>
