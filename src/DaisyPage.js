@@ -71,7 +71,7 @@ function DaisyPage() {
                   </div>
                 </div>
 
-                <div class="navbar bg-base-200 sm:rounded-lg shadow-md">
+                <div class="navbar bg-base-200 sm:rounded-lg shadow-md flex-wrap">
                   <div class="flex-1">
                     <a class="btn btn-ghost normal-case text-xl rounded-full">Wiz</a>
                   </div>
@@ -81,7 +81,7 @@ function DaisyPage() {
                     </div>
                     <div class="dropdown dropdown-end">
                       <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-                        <div class="w-10 rounded-full">
+                        <div class="w-10 rounded-full flex-wrap">
                           <img src={require("./logo.png")} />
                         </div>
                       </label>
