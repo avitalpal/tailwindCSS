@@ -3,7 +3,7 @@ Welcome! This repo holds a playground React app to test features of Tailwind CSS
 
 1. Feel free to clone any of the code here and play around with it yourself, that's what this is for!
 
-To clone the whole repo: `git clone https://github.com/uploadwizrobotics/Wiz-Playgrounds-TailwindCSS`
+To clone the whole repo: `git clone https://github.com/uploadwizrobotics/Wiz-Playground-TailwindCSS`
 
 2. To be able to use the features, make sure to check out `DEPENDENCIES.txt` for anything you may have to install locally
 
