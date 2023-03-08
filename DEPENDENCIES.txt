@@ -5,7 +5,7 @@ DEPENDENCY DOWNLOADS:
 // To install Tailwind:
 npm install -D tailwindcss
 
-// To create the tailwind.config.js file:
+// To create the tailwind.config.js file (ONLY IF IT'S MISSING):
 npx tailwindcss init
 
 // Config command
